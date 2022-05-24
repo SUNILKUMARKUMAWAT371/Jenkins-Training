@@ -40,7 +40,7 @@ kops update cluster --name jenkinstraining.com --yes --admin
 
 kops validate cluster --wait 10m
 
-
+-> To login master k8s computer in future, then command is
 ssh -i ~/.ssh/id_rsa ubuntu@api.jenkinstraining.com
 
 kops delete cluster  --yes
